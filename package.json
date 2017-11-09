@@ -21,8 +21,12 @@
     "type": "git",
     "url": "git+https://github.com/jdists/jhtmls.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "zswang",
+    "url": "http://weibo.com/zswang"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jdists/jhtmls/issues"
   },
