@@ -1,6 +1,6 @@
 {
   "name": "@jdists/jhtmls",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "jhtmls as jdists processor",
   "main": "lib/index",
   "typings": "lib/index.d.ts",
