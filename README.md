@@ -8,6 +8,34 @@ jhtmls as jdists processor
 
 * @see [jhtmls](https://github.com/zswang/jhtmls)
 
+## Example
+
+```html
+<!--data>
+kids:
+  - name: Jimmy
+    age: '12'
+  - name: Sally
+    age: '4'
+</data-->
+
+<!--jdists encoding="jhtmls" data="?data"-->
+<ul>
+kids.forEach((item) => {
+  <li>#{item.name} - #{item.age}</li>
+})
+</ul>
+<!--/jdists-->
+
+<!--jhtmls data="?data"-->
+<ul>
+kids.forEach((item) => {
+  <li>#{item.name} - #{item.age}</li>
+})
+</ul>
+<!--/jhtmls-->
+```
+
 ## License
 
 MIT © [zswang](http://weibo.com/zswang)

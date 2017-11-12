@@ -9,9 +9,7 @@ const jdists = require('gulp-jdists')
 const rename = require('gulp-rename')
 const examplejs = require('gulp-examplejs')
 const typescript = require('gulp-typescript')
-const replace = require('gulp-replace')
 const merge2 = require('merge2')
-const pkg = require('./package')
 
 gulp.task('build', function () {
   var tsResult = gulp.src(`src/index.ts`)
